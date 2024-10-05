@@ -97,8 +97,6 @@ class IntensitySegments {
       result.push([key, this.map.get(key)]);
     }
 
-    console.log(JSON.stringify(result));
-
     return JSON.stringify(result);
   }
 

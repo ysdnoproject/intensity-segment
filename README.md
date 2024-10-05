@@ -57,3 +57,7 @@ segments.toString(); // Should be "[[20,1],[30,0]]"
 segments.add(10, 40, -1);
 segments.toString(); // Should be "[[10,-1],[20,0],[30,-1],[40,0]]"
 ```
+## Unit Test
+run ```npm run test``` to run unit test.
+
+run ```npm run coverage``` to run unit test coverage.
