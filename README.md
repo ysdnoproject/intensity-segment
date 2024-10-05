@@ -61,3 +61,12 @@ segments.toString(); // Should be "[[10,-1],[20,0],[30,-1],[40,0]]"
 run ```npm run test``` to run unit test.
 
 run ```npm run coverage``` to run unit test coverage.
+
+## Abount ESM
+branch master is use CJS
+
+branch esm is use ESM, when use ESM to run unit test.It will cause a warning
+```
+(node:39568) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+```
