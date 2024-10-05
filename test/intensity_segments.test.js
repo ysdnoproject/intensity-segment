@@ -1,4 +1,4 @@
-const IntensitySegments = require("../src/intensity_segments.js");
+import {IntensitySegments} from "../src/intensity_segments.js";
 
 test("intensity segments test 1", () => {
   const segments1 = new IntensitySegments();

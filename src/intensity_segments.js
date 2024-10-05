@@ -1,4 +1,4 @@
-class IntensitySegments {
+export class IntensitySegments {
   /**
    * This is the constructor for the IntensitySegments class
    * @constructor
@@ -122,5 +122,3 @@ class IntensitySegments {
     return l;
   }
 }
-
-module.exports = IntensitySegments

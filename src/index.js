@@ -1,4 +1,4 @@
-const IntensitySegments = require("./intensity_segments.js");
+import {IntensitySegments} from "./intensity_segments.js";
 
 const segments1 = new IntensitySegments();
 console.log(segments1.toString()); // Should be "[]"
