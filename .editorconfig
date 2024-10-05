@@ -1,0 +1,17 @@
+root = true
+
+[*]
+# 设置缩进风格。可选值为 tab（制表符）或 space（空格）。
+indent_style = space
+# 设置每个缩进级别的空格数。可选值为整数，例如 2 或 4。
+indent_size = 2
+# 设置文件的字符编码。可选值为 utf-8、utf-8-bom、latin1 等。
+charset = utf-8
+# 设置是否删除行末尾的空白字符。可选值为 true 或 false。
+trim_trailing_whitespace = true
+# 设置是否在文件末尾插入一个空行
+insert_final_newline = true
+# 设置换行符的类型。可选值为 lf（Unix 风格）、cr（Mac 风格）或 crlf（Windows 风格）。
+end_of_line = crlf
+# 设置最大行宽，超过此长度的行会被提示。
+max_line_length = off
